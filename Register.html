@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>RatlamAllinOne</title>
@@ -26,8 +26,13 @@
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-	
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" />
+    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -46,9 +51,7 @@
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 						    <span class="text">info@Ratlamallinone.in</span>
 					    </div>
-					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
-						    <span class="text">0-2 Business days delivery &amp; Free Returns</span>
-					    </div>
+					    
 				    </div>
 			    </div>
 		    </div>
@@ -56,82 +59,62 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">RatlamAllinOne</a>
+	     <img src="img/logo.gif" width="50" height="50"> 
+
+	      <P style="color:white; font-size:18px;" style="font-family:garamond"><b> RatlamAllinOne</b></P>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="ViewOrders.html" class="nav-link">View Orders</a></li>
-	          
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="ContactForm.html" class="nav-link">Feedback\Suggestions</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
 
-<!-- ======= PrivacyPolicy Section ======= -->
-<section id="PrivacyPolicy" class="PrivacyPolicy">
-  <div class="container" data-aos="fade-up">
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3 style="color:darkgreen"> Sign up now for Online Business </h3>
 
-    <div class="section-title">
-      <h2>Privacy Policy</h2>
-      <p> 
-          RatlamAllinOne has created this Privacy Policy to demonstrate our firm commitment to protecting information you submit. 
-      </p>
-    </div>
+				<fieldset>
+                    <label for="Name">Related To</label>
+		                  <select name="" id="Product" class="form-control"></select>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="Name">Your Name </label>
+                    <input id="Name" placeholder="Your Name" maxlength=50 class="form-control" type="text" cols="50" tabindex="1" style="margin-bottom: 10px" required autofocus>
+                </fieldset>
 
-    <div class="row content">
-    
-      <div class="col-lg-6 pt-4 pt-lg-0">
-      <h3>Collection of information:</h3>
-        <p>
-          You can visit RatlamAllinOne websites without revealing your identity. 
-          There are times, however, when we may request information to better serve you as an existing or prospective client.
+                <fieldset>
+                    <label for="phonenumber">Your Mobile Number</label>
+                    <input id="phoneNO" placeholder="Your Mobile Number" maxlength=10 class="form-control" aria-describedby="phonenumberHelp" type="tel" rows="1" cols="50" tabindex="2" required>
+                    <small id="phonenumberHelp" class="form-text text-muted" >We'll never share your mobiles number with anyone else.</small>
+                </fieldset>
 
-  We collect some personal information when you register for an event, or subscribe to our newsletter, or sign-up for a form which 
-  could include such as name, job title, address, phone number and email address.  
-  These requests are made to improve communications, make content from our website accessible in a legal manner, 
-  and to enable us to provide a subscription service. It is our intent to protect the privacy of any shared information 
-  that is personally identifiable.
-        </p>
-      <h3>Use of Information:</h3>
-        <p>
-          RatlamAllinOne does not sell, distribute, or give your personal information to any third party without your knowledge and 
-          consent except to provide products or services in which you have expressly displayed an interest, when you have 
-          given RatlamAllinOne your permission, or under the following circumstances but is not limited to:
+                <fieldset>
+                    <label for="email">Your Email ID</label>
+                    <input id="email" placeholder="Your  email ID" maxlength=50 class="form-control" type="text" rows="1" cols="50" tabindex="3" required>
+                </fieldset>
 
-    When working with contracted outsourcing partners who work on behalf of RatlamAllinOne. These partners are subject to strict confidentiality agreements.
+                <fieldset>
+                    <label for="message">Details: </label>
+                    <textarea id="message" placeholder="Type your message here...." maxlength=1000 class="form-control" rows="4" cols="50" tabindex="4" style="margin-bottom: 10px" required></textarea>
+                </fieldset>
 
-          Additionally, these companies are not extended any independent right to share this information with their partners.
-        </p>
-              
-      </div>
-    </div>
+                <fieldset >
+                    <button name="button" type="button"  onclick="return submitFeedBack()" class="btn btn-primary py-3 px-5" id="contact-submit" data-submit="...Sending" style="margin-bottom: 22px" >Submit</button>
+                </fieldset>
 
-  </div>
-</section><!-- End PrivacyPolicy Section -->
+            </form>
+        </div>
 
 
-</div>
-   <br><br><br>
-  <div class="modal fade" id="lodaingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Loading Please Wait</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h6>Please wait your data is been progress. </h6>
-      </div>
-    </div>
-  </div>
-  </div>
+        <div class="clear"></div>
 
    <footer class="footer">
             <div class="container">
@@ -153,22 +136,12 @@
             </div>
         </footer>
     
-    
-  
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script id="myscriptLib" myCustomAttrib="common"  src="js/script-lib.js"></script>
+	<script>
+		initFeedBackVendors();
+	</script>
+</body>
 
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="js/main.js"></script>
-
-   
-  </body>
 </html>

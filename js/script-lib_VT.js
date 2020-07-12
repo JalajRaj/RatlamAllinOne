@@ -1,6 +1,6 @@
 var myCurrentReq = document.getElementById("myscriptLib").getAttribute("myCustomAttrib");
 var map = {};
-var dm = "https://m8gohcb5gc.execute-api.ap-south-1.amazonaws.com/";
+var dm = "https://eqqkv4vbgf.execute-api.ap-south-1.amazonaws.com/";
 var context = dm + "dev/"+myCurrentReq+"/";
 var contextCommon = dm + "dev/common/";
 var category=myCurrentReq.charAt(0).toUpperCase()
