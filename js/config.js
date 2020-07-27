@@ -16,7 +16,7 @@ var footerSection =  '<br><br><footer class="footer">'+
 								'<li>'+
 									'<a target="_blank" href="https://api.whatsapp.com/send?phone=+918962574401&amp;text=Hi"><img src="'+myPath+'img/whatsapp.png" style="height:40px"></a>&nbsp;&nbsp;'+
 									'<a href="#" onclick="return openFBDetails();" ><img style="height:40px" src="'+myPath+'img/fb.png"></a>&nbsp;&nbsp;'+
-									'<a target="_blank" href="http://twitter.com/share?text=Ratlam AllinOne Best website in Ratlam&url=http://ratlamallinone.in&hashtags=Ratlam, MP" ><img src="'+myPath+'img/twitter.png" style="height:40px" /></a>&nbsp;&nbsp;'+
+									'<a target="_blank" href="http://twitter.com/share?text=Ratlam AllinOne Best website in Ratlam&url=http://ratlamallinone.in&hashtags=Ratlam,MP" ><img src="'+myPath+'img/twitter.png" style="height:40px" /></a>&nbsp;&nbsp;'+
 									'<a href="tel:8962574401"><img style="height:40px" src="'+myPath+'img/callus.png"></a>&nbsp;&nbsp;'+
 									'<a href="mailto:info@ratlamallinone.in" target="_blank"><img style="height:40px" src="'+myPath+'img/email.png"></a>'+
 								'</li>'+
