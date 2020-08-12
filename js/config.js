@@ -27,7 +27,7 @@ var footerSection =  '<br><br><footer class="footer">'+
                         '<div class="footer-text one">'+
                             '<br>'+
                             '<ul>'+
-                                '<li><img src="'+myPath+'img/3dDesignLogo.png" /></li>'+
+                                '<!--<li><img src="'+myPath+'img/3dDesignLogo.png" /></li>-->'+
 								'<li class="playStoreIcon"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.ratlamonlineMart&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="'+myPath+'img/applogo.PNG" style="height:60px;border-radius:10px"></a></li>'+
 							'</ul>'+
                         '</div>'+
