@@ -11,7 +11,7 @@ var footerSection =  '<br><br><footer class="footer">'+
                             '<h3>CONTACT US</h3>'+
                             '<ul>'+
                                 '<li><a href="javascript:void(0)"><i class="material-icons">location_on</i>35, Priydarshani Nagar, Ratlam, (M.P.) 457001</a></li>'+
-                                '<li><a href="mailto:info@ratlamonlinemart.in" target="_blank"><i class="material-icons">email</i>info@ratlamonlinemart.in</a></li>'+							''+								
+                                '<li><a href="mailto:info@ratlamonlinemart.in" target="_blank"><i class="material-icons">email</i>info@ratlamonlinemart.in ,  +91 9518320901</a></li>'+							''+								
 								'<li><a href="'+myPath+'PrivacyPolicy.html"><i class="material-icons">privacy_tip</i>Privacy Policy / Team & Condition</a></li>'+
 								'<li>'+
 									'<a target="_blank" href="https://api.whatsapp.com/send?phone=+918962574401&amp;text=Hi"><img src="'+myPath+'img/whatsapp.png" style="height:40px"></a>&nbsp;&nbsp;'+
