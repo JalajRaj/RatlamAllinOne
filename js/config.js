@@ -189,6 +189,7 @@ $("#topHeadersection").html(topHeader);
 $("#footersection").html(footerSection);
 $("#deliverysection").html(deliverySection);  
 
+
 function openFBDetails(){
 	window.open("https://www.facebook.com/sharer/sharer.php?u=ratlamonlinemart.in", "pop", "width=600, height=400, scrollbars=no");
 	return false;
